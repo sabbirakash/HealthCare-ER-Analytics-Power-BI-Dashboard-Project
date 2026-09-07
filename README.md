@@ -345,7 +345,7 @@ The **Healthcare ER Analytics Dashboard** consists of four interactive report pa
 # 📄 Dashboard Page 1 — Monthly View
 
 <p align="center">
-<img src="Images/Monthly View.png" width="100%">
+<img src="https://github.com/sabbirakash/HealthCare-ER-Analytics-Power-BI-Dashboard-Project/blob/main/Images/Monthly%20View%20SS.png" width="100%">
 </p>
 
 ## 🎯 Purpose
@@ -392,7 +392,7 @@ This page helps decision-makers:
 # 📄 Dashboard Page 2 — Consolidated View
 
 <p align="center">
-<img src="Images/Consolidated View.png" width="100%">
+<img src="https://github.com/sabbirakash/HealthCare-ER-Analytics-Power-BI-Dashboard-Project/blob/main/Images/Consolidated%20View%20SS.png" width="100%">
 </p>
 
 ## 🎯 Purpose
@@ -457,7 +457,7 @@ This page enables hospital leadership to:
 # 📄 Dashboard Page 3 — Patient Details
 
 <p align="center">
-<img src="Images/Patient Details.png" width="100%">
+<img src="https://github.com/sabbirakash/HealthCare-ER-Analytics-Power-BI-Dashboard-Project/blob/main/Images/Table%20View%20SS.png" width="100%">
 </p>
 
 ## 🎯 Purpose
@@ -506,7 +506,11 @@ This page supports:
 # 📄 Dashboard Page 4 — Key Takeaways
 
 <p align="center">
-<img src="Images/Key Takeaways.png" width="100%">
+<img src="https://github.com/sabbirakash/HealthCare-ER-Analytics-Power-BI-Dashboard-Project/blob/main/Images/Key%20Findings%20SS.png" width="100%">
+</p>
+
+<p align="center">
+<img src="https://github.com/sabbirakash/HealthCare-ER-Analytics-Power-BI-Dashboard-Project/blob/main/Images/Recommendation%20SS.png" width="100%">
 </p>
 
 ## 🎯 Purpose
