@@ -155,3 +155,183 @@ The Executive Dashboard provides a high-level overview of Emergency Room operati
 | Reporting | Interactive Multi-page Dashboard |
 
 ---
+
+# 🧹 Data Cleaning & Preparation
+
+Before designing the dashboard, the raw Emergency Room dataset was cleaned and transformed using **Power Query** to ensure consistency, improve data quality, and support accurate reporting.
+
+The following data preparation steps were performed:
+
+- Imported the raw CSV dataset into Power BI.
+- Converted **Admission Date** into the correct Date data type.
+- Standardized text fields for better consistency.
+- Verified Patient IDs for uniqueness.
+- Checked for missing and blank values.
+- Created additional date-related fields for time-based analysis.
+- Organized categorical fields for demographic and referral analysis.
+- Prepared the dataset for efficient data modeling and visualization.
+
+These transformations improved overall data quality and enabled reliable KPI calculations and interactive reporting.
+
+---
+
+# 🔄 Power Query Transformations
+
+The following transformations were implemented using **Power Query Editor**:
+
+| Transformation | Purpose |
+|---------------|---------|
+| Changed Data Types | Ensured correct formatting for numerical, categorical, and date fields |
+| Renamed Columns | Improved readability and reporting consistency |
+| Removed Unnecessary Columns | Reduced model complexity |
+| Checked Null Values | Improved data quality |
+| Created Date Attributes | Enabled monthly and yearly analysis |
+| Data Validation | Ensured accurate dashboard calculations |
+
+---
+
+# 📊 Data Modeling
+
+A clean and optimized data model was developed to support fast report performance and interactive filtering across multiple dashboard pages.
+
+The model consists of:
+
+- Fact Table containing patient-level records
+- Date Dimension for time intelligence
+- Relationships optimized for filtering and aggregation
+- Interactive slicers connected across report pages
+
+A dedicated **Date Table** was created using DAX to support Month, Year, Quarter, Weekday, and other time-based calculations. :contentReference[oaicite:0]{index=0}
+
+---
+
+# 📅 Date Table
+
+A custom Calendar Table was created using **CALENDARAUTO()**, allowing the dashboard to perform time intelligence calculations efficiently.
+
+Additional columns were generated including:
+
+- Year
+- Month Name
+- Month Number
+- Weekday
+- Quarter
+- Week Type (Weekday / Weekend)
+
+This structure enables dynamic filtering and trend analysis across different time periods. :contentReference[oaicite:1]{index=1}
+
+---
+
+# 🧮 DAX Measures & KPIs
+
+Several DAX measures were developed to calculate operational KPIs and improve dashboard interactivity.
+
+## 📌 Core KPIs
+
+- Number of Patients
+- Total Admitted Patients
+- Admission Rate
+- Non-Admission Rate
+- Average Wait Time
+- Average Satisfaction Score
+- Seen Within 30 Minutes
+- Target Status (Within SLA vs Missed SLA)
+
+The dashboard reports:
+
+| KPI | Value |
+|------|-------:|
+| Total Patients | 9,216 |
+| Total Admitted | 4,612 |
+| Average Wait Time | 35.26 Minutes |
+| Average Satisfaction Score | 4.99 / 10 |
+| Seen Within 30 Minutes | 41% |
+| Target Missed | 59% |
+
+These KPIs provide hospital administrators with an instant overview of Emergency Room performance. :contentReference[oaicite:2]{index=2}
+
+---
+
+# 📈 Dashboard Features
+
+The dashboard was designed with a strong focus on usability, interactivity, and executive reporting.
+
+### Executive KPI Cards
+
+- Total Patients
+- Total Admitted Patients
+- Average Wait Time
+- Average Satisfaction Score
+- Patients Seen Within 30 Minutes
+- Target Status Performance
+
+---
+
+### Interactive Visualizations
+
+- Patient Volume by Age Group
+- Admission vs Non-Admission Analysis
+- Department Referral Analysis
+- Patient Distribution by Gender
+- Patient Distribution by Race
+- Patient Arrivals by Weekday
+- Patient Arrivals by Hour
+- Monthly Performance Trends
+
+---
+
+### Interactive Filters
+
+Users can dynamically filter the dashboard by:
+
+- Month
+- Admission Date
+- Department
+- Gender
+
+This enables detailed exploration without modifying the underlying dataset.
+
+---
+
+# 📄 Dashboard Pages
+
+The report consists of four interactive pages, each designed for a different analytical purpose.
+
+## 1️⃣ Monthly View
+
+Provides a month-by-month overview of Emergency Room activity, enabling users to monitor patient trends, waiting times, admissions, and operational performance over time.
+
+---
+
+## 2️⃣ Consolidated View
+
+Presents an executive summary of key performance indicators, demographic insights, referral patterns, and patient distribution in a single dashboard.
+
+---
+
+## 3️⃣ Patient Details
+
+Displays patient-level records in a searchable table, allowing users to review individual cases, admission status, referral department, wait time, and demographic information.
+
+---
+
+## 4️⃣ Key Takeaways
+
+Summarizes the most important business insights and operational recommendations derived from the dashboard analysis, helping stakeholders quickly understand performance trends and potential improvement areas. :contentReference[oaicite:3]{index=3}
+
+---
+
+# ✨ Key Dashboard Capabilities
+
+- Interactive multi-page reporting
+- Executive KPI monitoring
+- Dynamic slicers and filters
+- Time-based trend analysis
+- Patient demographic analysis
+- Referral department analysis
+- Wait time monitoring
+- Service-level performance tracking
+- Patient-level drill-down reporting
+- Responsive and professional dashboard design
+
+---
