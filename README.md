@@ -335,3 +335,271 @@ Summarizes the most important business insights and operational recommendations 
 - Responsive and professional dashboard design
 
 ---
+
+# 📊 Dashboard Walkthrough
+
+The **Healthcare ER Analytics Dashboard** consists of four interactive report pages, each designed to answer different business questions related to Emergency Room operations. Together, these pages provide hospital administrators and operational managers with a comprehensive view of patient flow, service quality, and departmental performance.
+
+---
+
+# 📄 Dashboard Page 1 — Monthly View
+
+<p align="center">
+<img src="Images/Monthly View.png" width="100%">
+</p>
+
+## 🎯 Purpose
+
+The Monthly View allows users to monitor Emergency Room performance over time. By filtering the report by month or date range, hospital managers can identify trends, seasonal patterns, and changes in patient volume or operational efficiency.
+
+---
+
+## 📈 Key KPIs
+
+- Total Patients
+- Total Admitted Patients
+- Average Wait Time
+- Average Patient Satisfaction Score
+- Patients Seen Within 30 Minutes
+- Admission Rate
+
+---
+
+## 📊 Visualizations Included
+
+- Patient Count by Age Group
+- Department Referral Distribution
+- Patient Distribution by Gender
+- Patient Distribution by Race
+- Patient Visits by Weekday
+- Patient Visits by Hour
+- Admission Status Breakdown
+
+---
+
+## 💼 Business Value
+
+This page helps decision-makers:
+
+- Monitor monthly ER performance.
+- Detect changes in patient demand.
+- Compare operational efficiency across different periods.
+- Evaluate service-level performance.
+- Track waiting time trends.
+
+---
+
+# 📄 Dashboard Page 2 — Consolidated View
+
+<p align="center">
+<img src="Images/Consolidated View.png" width="100%">
+</p>
+
+## 🎯 Purpose
+
+The Consolidated View provides a complete executive summary of Emergency Room performance by combining operational KPIs, patient demographics, referral statistics, and service-level metrics into a single dashboard.
+
+It serves as the primary reporting page for hospital executives and department managers.
+
+---
+
+## 📊 Executive KPIs
+
+- Number of Patients
+- Total Admitted Patients
+- Average Wait Time
+- Average Satisfaction Score
+- Patients Seen Within 30 Minutes
+- Target Status (Within SLA vs Missed SLA)
+
+---
+
+## 📈 Dashboard Components
+
+### 👥 Patient Demographics
+
+- Patient Age Groups
+- Gender Distribution
+- Race Distribution
+
+---
+
+### 🏥 Operational Metrics
+
+- Admission Status
+- Wait Time Performance
+- SLA Achievement
+- Hourly Patient Distribution
+- Weekly Patient Distribution
+
+---
+
+### 🩺 Department Analysis
+
+- Referral Department Distribution
+- High-volume Referral Departments
+- Department Workload
+
+---
+
+## 💼 Business Value
+
+This page enables hospital leadership to:
+
+- Monitor hospital performance from one screen.
+- Identify operational bottlenecks.
+- Evaluate patient demographics.
+- Measure service quality.
+- Improve staffing decisions.
+
+---
+
+# 📄 Dashboard Page 3 — Patient Details
+
+<p align="center">
+<img src="Images/Patient Details.png" width="100%">
+</p>
+
+## 🎯 Purpose
+
+The Patient Details page provides a detailed record of every Emergency Room visit, allowing users to drill down into individual patient information for operational review and reporting.
+
+---
+
+## 🔍 Information Available
+
+Each patient record includes:
+
+- Patient ID
+- Full Name
+- Gender
+- Age
+- Admission Date
+- Department Referral
+- Wait Time
+- Patient Race
+- Admission Status
+- Administrative Flag
+
+The dashboard allows users to dynamically filter the table using:
+
+- Admission Date
+- Department
+- Gender
+
+Patient-level information shown in the dashboard includes these fields. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 💼 Business Value
+
+This page supports:
+
+- Individual patient lookup
+- Administrative reporting
+- Operational audits
+- Data validation
+- Patient record verification
+
+---
+
+# 📄 Dashboard Page 4 — Key Takeaways
+
+<p align="center">
+<img src="Images/Key Takeaways.png" width="100%">
+</p>
+
+## 🎯 Purpose
+
+The Key Takeaways page summarizes the most important findings from the dashboard, allowing hospital administrators to quickly understand Emergency Room performance without exploring every visualization.
+
+It transforms analytical results into actionable business insights and operational recommendations.
+
+---
+
+## 📋 Executive Summary
+
+The dashboard highlights:
+
+- Overall Emergency Room performance
+- Patient admission trends
+- Waiting time performance
+- Patient satisfaction
+- Referral department workload
+- Demographic distribution
+- Operational challenges
+- Strategic recommendations
+
+The source dashboard summarizes these metrics, including 9,216 patients, 4,612 admissions, an average wait time of 35.26 minutes, and only 41% of patients being seen within 30 minutes. :contentReference[oaicite:1]{index=1}
+
+---
+
+# 🎛 Interactive Dashboard Features
+
+The dashboard includes several interactive capabilities that improve usability and allow users to perform self-service analysis.
+
+### 📅 Date Filtering
+
+Users can analyze Emergency Room performance across different months and custom date ranges.
+
+---
+
+### 🏥 Department Filtering
+
+Department slicers allow users to evaluate referral patterns and operational performance by medical department.
+
+---
+
+### 👤 Gender Filtering
+
+Users can compare operational metrics across male and female patient populations.
+
+---
+
+### 📊 Dynamic Cross Filtering
+
+Selecting any visual automatically filters related charts across the report, enabling faster exploratory analysis.
+
+---
+
+### 📑 Multi-page Navigation
+
+Navigation buttons allow users to move seamlessly between:
+
+- Monthly View
+- Consolidated View
+- Patient Details
+- Key Takeaways
+
+---
+
+# 🎨 Dashboard Design Highlights
+
+The dashboard was designed following Business Intelligence best practices to maximize readability and user experience.
+
+### Design Principles
+
+- Clean and professional layout
+- Consistent color palette
+- Executive-style KPI cards
+- Interactive slicers
+- Minimal visual clutter
+- Easy navigation between pages
+- Responsive report layout
+- High information density without overwhelming users
+
+---
+
+# ⭐ Project Highlights
+
+- Interactive multi-page Power BI dashboard
+- End-to-end healthcare operational analysis
+- Executive KPI reporting
+- Patient demographic analysis
+- Wait time and SLA performance monitoring
+- Referral department analysis
+- Patient-level drill-down reporting
+- Dynamic filtering across all report pages
+- Business-focused storytelling with executive recommendations
+
+---
