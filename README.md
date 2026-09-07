@@ -1,7 +1,7 @@
 # 🏥 Healthcare ER Analytics Dashboard | Power BI
 
 <p align="center">
-  <img src="Images/Healthcare ER Analytics Banner.png" alt="Healthcare ER Analytics Banner">
+  <img src="https://github.com/sabbirakash/HealthCare-ER-Analytics-Power-BI-Dashboard-Project/blob/main/Images/HealthCare%20ER%20Analytics%20Banner.png">
 </p>
 
 <p align="center">
